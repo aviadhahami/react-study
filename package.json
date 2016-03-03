@@ -1,21 +1,30 @@
 {
-  "name": "hello-world",
-  "version": "1.0.0",
-  "description": "My first attempt to create react component",
-  "main": "index.js",
-  "scripts": {
-    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js",
-    "webpack": "webpack",
-    "webpack-watch": "webpack -w",
-    "webpack-prod": "webpack -p"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.6.4",
-    "babel-loader": "^6.2.4",
-    "babel-preset-react": "^6.5.0",
-    "html-webpack-plugin": "^2.9.0",
-    "webpack": "^1.12.14"
-  }
+	"name": "hello-world",
+	"version": "1.0.0",
+	"description": "My first attempt to create react component",
+	"main": "index.js",
+	"scripts": {
+		"test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js",
+		"webpack": "webpack",
+		"webpack-watch": "webpack -w",
+		"webpack-prod": "webpack -p"
+		},
+		"author": "",
+		"license": "ISC",
+		"devDependencies": {
+			"babel-core": "^6.6.4",
+			"babel-loader": "^6.2.4",
+			"babel-preset-react": "^6.5.0",
+			"html-webpack-plugin": "^2.9.0",
+			"webpack": "^1.12.14",
+			"react": "^0.14.7",
+			"react-dom": "^0.14.7",
+			"react-router": "^2.0.0",
+			"webpack-dev-server": "^1.14.1"
+			},
+			"dependencies": {
+
+			}
+		}
+	}
 }
