@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js",
-    "webpack" : "webpack",
-    "webpack-watch" : "webpack -w",
-    "webpack-prod" : "webpack -p"
+    "webpack": "webpack",
+    "webpack-watch": "webpack -w",
+    "webpack-prod": "webpack -p"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.6.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
     "html-webpack-plugin": "^2.9.0",
     "webpack": "^1.12.14"
   }
