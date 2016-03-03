@@ -4,7 +4,8 @@
   "description": "My first attempt to create react component",
   "main": "index.js",
   "scripts": {
-    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js",
+    "webpack" : "webpack"
   },
   "author": "",
   "license": "ISC",
