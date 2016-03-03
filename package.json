@@ -6,7 +6,8 @@
   "scripts": {
     "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js",
     "webpack" : "webpack",
-    "webpack-watch" : "webpack -w"
+    "webpack-watch" : "webpack -w",
+    "webpack-prod" : "webpack -p"
   },
   "author": "",
   "license": "ISC",
