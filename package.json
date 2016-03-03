@@ -7,5 +7,9 @@
     "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.9.0",
+    "webpack": "^1.12.14"
+  }
 }
