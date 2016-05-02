@@ -15,7 +15,7 @@ var hashHistory = ReactRouter.hashHistory;
 var routes = (
     <Router history={hashHistory}>
         <Route path="/" component={Main}>
-            <Route path="/home" component={Home}></Route>
+            <IndexRoute component={Home} />
         </Route>
     </Router>
 );
